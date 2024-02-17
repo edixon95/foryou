@@ -1,0 +1,31 @@
+* {
+    margin: 0
+}
+
+#container {
+    background-color: rgb(22, 93, 160);
+    height: 100vh;
+    width: 100vw;
+}
+
+#funButton {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    z-index: 100;
+    height: 5%;
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    background-color: pink;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#funButton:hover {
+    background-color: rgb(243, 179, 190);
+}
+
+#funButton:active {
+    background-color: palevioletred;
+}
